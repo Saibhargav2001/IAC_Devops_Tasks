@@ -35,7 +35,7 @@ resource "aws_security_group" "Task1_sg" {
 }
 
 resource "aws_lb" "my_lb" {
-  name               = "Task1_LoadBalancer"
+  name               = "Task1-LoadBalancer"
   internal           = false
   load_balancer_type = "application"
   security_groups    = [aws_security_group.Task1_sg.id]
