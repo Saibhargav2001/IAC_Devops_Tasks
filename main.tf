@@ -1,6 +1,5 @@
 provider "aws" {
   region     = "us-west-2"
-  profile = "myaws"
 }
 
 resource "aws_vpc" "my_vpc" {
